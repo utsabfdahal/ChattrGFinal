@@ -121,7 +121,7 @@ Messages are sent and retrieved via Supabase's REST API. The `UserChatViewContro
 * I had issues with integration. Backend was ready as my postgres knowledge was satisfactory and my front-end knowledge was good too. But when integrating, I faced issues while extracting data, sending it. Documentation of Supabase came really handy doing so.  
 * I had significant challenges with data extraction, especially when trying to work directly with tables in-app. For instance, in the 'chats' table, I was dealing with user\_id and chatroom\_id. Extracting this data and then having to fetch the corresponding username or chatroom name in-app was a complex and frustrating process. It wasn’t until later, during a DBMS class, that I realized I could simplify everything by creating functions or procedures, joining tables, and running proper select queries. This revelation made the extraction process much smoother and more efficient. My DBMS knowledge turned out to be incredibly helpful in overcoming these challenges.
 
-* # I faced challenges in parsing JSON responses and ensuring that the data was correctly integrated with `UITableView`. This caused difficulties in fetching and displaying messages along with their senders accurately within the chat interface.
+* I faced challenges in parsing JSON responses and ensuring that the data was correctly integrated with `UITableView`. This caused difficulties in fetching and displaying messages along with their senders accurately within the chat interface.
 
 ## **Future Enhancements**
 
