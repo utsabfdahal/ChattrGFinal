@@ -52,7 +52,6 @@ To get started with the ChattrG app, follow these steps:
 ### **Prerequisites**
 
 1. **Xcode:** Ensure you have [Xcode](https://developer.apple.com/xcode/) installed on your macOS system.  
-2. **Supabase Account:** Create a [Supabase](https://supabase.io/) account and set up a new project. Obtain your Supabase URL and API keys.
 
 ### **Clone the Repository**
 
