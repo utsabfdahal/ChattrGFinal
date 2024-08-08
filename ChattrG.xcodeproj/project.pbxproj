@@ -76,6 +76,7 @@
 		044AB69E2C650F92007D28AC /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
 		044AB6A02C650FA3007D28AC /* Chatroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatroom.swift; sourceTree = "<group>"; };
 		044AB6A22C650FB0007D28AC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		044AB6A82C652B8C007D28AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0475268D2C612A2500E042CD /* AddChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChatRoom.swift; sourceTree = "<group>"; };
 		0475268F2C61368D00E042CD /* fetchingfunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchingfunctions.swift; sourceTree = "<group>"; };
 		04CCCD9D2C57542B00B4FB62 /* UserChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 		0415E6972C46B22E008AFF9C = {
 			isa = PBXGroup;
 			children = (
+				044AB6A82C652B8C007D28AC /* README.md */,
 				0415E6A22C46B22E008AFF9C /* ChattrG */,
 				0415E6B92C46B230008AFF9C /* ChattrGTests */,
 				0415E6C32C46B230008AFF9C /* ChattrGUITests */,
