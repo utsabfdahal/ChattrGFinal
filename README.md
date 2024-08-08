@@ -21,7 +21,6 @@ Before running this app, ensure you have the following installed:
 * **Xcode**: Version 14 or higher  
 * **iOS SDK**: Version 16 or higher  
 * **Swift Package Managager:** Latest version   
-* **Supabase Account**: Set up a Supabase project and obtain your `supabaseURL` and `supabaseKey`.
 
 ## **Database Schema**
 
