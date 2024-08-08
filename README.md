@@ -46,6 +46,44 @@ The application uses four main tables in PostgreSQL:
    * `timestamp`: The time when the message was sent.  
    * `reacted`: Boolean indicating if the message has any reactions.
 
+## **Setup and Installation**
+
+To get started with the ChattrG app, follow these steps:
+
+### **Prerequisites**
+
+1. **Xcode:** Ensure you have [Xcode](https://developer.apple.com/xcode/) installed on your macOS system.  
+2. **Supabase Account:** Create a [Supabase](https://supabase.io/) account and set up a new project. Obtain your Supabase URL and API keys.
+
+### **Clone the Repository**
+
+Clone the repository to your local machine:
+
+bash
+
+Copy code
+
+`git clone https://github.com/utsabfdahal/ChattrGFinal.git`
+
+`cd ChattrGFinal`
+
+### 
+
+### 
+
+### 
+
+### 
+
+### **Install Dependencies**
+
+The project uses Swift Package Manager to manage dependencies. Open the `ChattrG.xcodeproj` file in Xcode, then follow these steps:
+
+1. Select `File` \> `Add Packages Dependencies`.  
+2. Add the following packages:  
+   * **Supabase**: `https://github.com/supabase/supabase-swift`  
+3. Xcode will handle the installation of these dependencies.
+
 ## **Project Structure**
 
 * **Controllers**:  
@@ -81,14 +119,15 @@ Messages are sent and retrieved via Supabase's REST API. The `UserChatViewContro
 ## **Encountered Issues**
 
 * I had issues with integration. Backend was ready as my postgres knowledge was satisfactory and my front-end knowledge was good too. But when integrating, I faced issues while extracting data, sending it. Documentation of Supabase came really handy doing so.  
-* Extraction. I pulled alot my hair while trying to extract data. What  I used to do was, I used to directly extract tables and tried to do required things inApp. This was really challenging. For example- In the 'chats’ table, chats were there but it consisted of user\_id and chatroom\_id. Now after extracting the table, we have ‘user\_id’ and have to fetch username from that ‘user\_id’, same with ‘chatroom\_id’. I later discovered while sitting in class that I can make functions/procedures , join the table, run proper select queries and bingo, all of the problems were vanished in thin air. Knowledge from my DBMS class and lab were very very useful.
+* I had significant challenges with data extraction, especially when trying to work directly with tables in-app. For instance, in the 'chats' table, I was dealing with user\_id and chatroom\_id. Extracting this data and then having to fetch the corresponding username or chatroom name in-app was a complex and frustrating process. It wasn’t until later, during a DBMS class, that I realized I could simplify everything by creating functions or procedures, joining tables, and running proper select queries. This revelation made the extraction process much smoother and more efficient. My DBMS knowledge turned out to be incredibly helpful in overcoming these challenges.
 
 * # I faced challenges in parsing JSON responses and ensuring that the data was correctly integrated with `UITableView`. This caused difficulties in fetching and displaying messages along with their senders accurately within the chat interface.
 
 ## **Future Enhancements**
 
-* **Real-Time Messaging**: Implement real-time message updates using Supabase's subscription features.  
-* **Push Notifications**: Add push notifications for new messages and chatroom activities.  
-* **User Profiles**: Implement user profiles with more detailed information and settings.  
-* **UI Modification**
+* Realtime Functionality: Implement realtime updates for chat messages and chatroom activities, allowing users to see new messages and updates instantly without refreshing.  
+* Enhanced UI/UX: Improve the overall user interface to create a more visually appealing and user-friendly experience.  
+* Media Sharing: Enable users to send images, voice notes, and GIFs within chatrooms, making conversations more dynamic and engaging.  
+* Active Status: Display active status indicators to show when users are online or typing, enhancing the interactive experience.  
+* UI Improvements: Further refine the UI to make it more intuitive and responsive, ensuring smooth navigation and usage.
 
