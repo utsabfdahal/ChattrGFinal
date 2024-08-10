@@ -114,6 +114,13 @@ Users can create and delete chatrooms using the `AddChatRoom` view controller. T
 
 Messages are sent and retrieved via Supabase's REST API. The `UserChatViewController` handles displaying messages in a chatroom, while the `ChatViewController` manages the list of available chatrooms for the user.
 
+# Demo Video
+
+Watch the demo video by clicking the link below:
+
+[Demo Video](https://drive.google.com/file/d/1ro1Pmj6xafkY7tJynkmac090GfIb383Q/view?usp=share_link)
+
+
 ## **Encountered Issues**
 
 * I had issues with integration. Backend was ready as my postgres knowledge was satisfactory and my front-end knowledge was good too. But when integrating, I faced issues while extracting data, sending it. Documentation of Supabase came really handy doing so.  
